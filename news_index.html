@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+
+                    <!--Font Awesome for Icons-->
+<script src="https://kit.fontawesome.com/7b36db9d89.js" crossorigin="anonymous"></script>
+
+                    <!--Google Fonts-->
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato&family=Staatliches&display=swap" rel="stylesheet">
+
+                     <!--Stylesheets-->
+    <link rel="stylesheet" href="CSS_NewsGrid/news_style.css">
+        <!--Sets the conditions for when to include the mobile stylesheet-->
+    <link rel="stylesheet" media="screen and (max-width:768px)" href="CSS_NewsGrid/news_mobile.css">
+
+                    <!--Favicon icon-->
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <title>News Grid | Latest News</title>
+</head>
+<body>
+    <nav id="navbar">
+    <div class="container">
+       <img src="/NEWS_SITE.html/image_resources/logo.png" alt="News Grid" class="logo">
+        <!--Social media links btw to highlight and change something repeating in a row ctrl+d-->
+       <div class="socials">
+           <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
+           <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+           <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
+           <a href="https://youtube.com" target="_blank"><i class="fab fa-youtube fa-2x"></i></a>
+       </div>
+       <ul>
+           <li><a class="current" href="news_index.html">Home</a></li>
+           <li><a href="news_about.html">About</a></li>
+           <li><a href="news_article.html">News</a></li>
+           <li><a href="news_join.html">Contact</a></li>
+       </ul>
+    </div>
+    </nav>
+    
+    <!--Showcase-->
+    <header id="showcase">
+        <div class="container">
+            <div class="showcase-container">
+                <div class="showcase-content">
+                    <div class="category category-sports">Sports</div>
+                    <h1>Latest in UK Football </h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                     Nesciunt unde aliquid, recusandae quidem beatae ut hic, fuga perspiciatis
+                     id mollitia cupiditate adipisci rem facere. Quae eveniet sunt impedit excepturi 
+                     ipsam repudiandae iure, aut a officia.</p>
+
+                    <a href="news_article.html" class="btn btn-primary">Read More</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+                      <!--HomeScreen Articles-->
+    <section id="home-articles" class="pad-3">
+        <!--This container class is so the page stuff isnt up against the margin-->
+        <div class="container">
+        <h2>Editor's Picks</h2>
+        <div class="articles-container">
+            <!--Article #1-->
+            <article class="card">
+                <img src="./image_resources/articles/ent1.jpg" alt="cool">
+               <div> <!--I think this div is to wrap the details in the sepecific article, so we can make it a grid-->
+                <div class="category category-ent">Entertainment</div>
+                <h3><a href="news_article.html">Lorem ipsum dolor sit amet.</a></h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing 
+                elit. Amet nam dicta recusandae facilis perspiciatis vero 
+                in illo? Qui, modi! Magni quibusdam dolorem ipsam inventore modi 
+                aut maiores commodi beatae voluptates!</p>
+            </div>
+            </article>
+            <!--Article #2-->
+            <article class="card bg-dark">
+                <div class="category category-sports">SPORTS</div>
+                <h3><a href="news_article.html">Lorem ipsum dolor sit amet.</a></h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing 
+                elit. Amet nam dicta recusandae facilis perspiciatis vero 
+                in illo? Qui, modi! Magni quibusdam dolorem ipsam inventore modi 
+                aut maiores commodi beatae voluptates!</p>
+            </article>
+
+            <!--Article #3-->
+            <article class="card">
+                <img src="./image_resources/articles/tech1.jpg" alt="cool">
+                <div class="category category-tech">Technology</div>
+                <h3><a href="news_article.html">Lorem ipsum dolor sit amet.</a></h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing 
+                elit. Amet nam dicta recusandae facilis perspiciatis vero 
+                in illo? Qui, modi! Magni quibusdam dolorem ipsam inventore modi 
+                aut maiores commodi beatae voluptates!</p>
+        
+            </article>
+
+            <!--Article #4-->
+            <article class="card">
+                <div class="category category-sports">sports</div>
+                <h3><a href="news_article.html">Lorem ipsum dolor sit amet.</a></h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing 
+                elit. Amet nam dicta recusandae facilis perspiciatis vero 
+                in illo? Qui, modi! Magni quibusdam dolorem ipsam inventore modi 
+                aut maiores commodi beatae voluptates!</p>
+                <img src="./image_resources/articles/sports1.jpg" alt="cool">
+            </article>
+
+            <!--Article #5-->
+            <article class="card">
+                <img src="./image_resources/articles/tech2.jpg" alt="cool">
+                <div class="category category-tech">Technology</div>
+                <h3><a href="news_article.html">Lorem ipsum dolor sit amet.</a></h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing 
+                elit. Amet nam dicta recusandae facilis perspiciatis vero 
+                in illo? Qui, modi! Magni quibusdam dolorem ipsam inventore modi 
+                aut maiores commodi beatae voluptates!</p>
+            </article>
+
+            <!--Article #6-->
+            <article class="card bg-primary">
+                <div class="category category-sports">SPORTS</div>
+                <h3><a href="news_article.html">Lorem ipsum dolor sit amet.</a></h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing 
+                elit. Amet nam dicta recusandae facilis perspiciatis vero 
+                in illo? Qui, modi! Magni quibusdam dolorem ipsam inventore modi 
+                aut maiores commodi beatae voluptates!</p>
+            </article>
+
+            <!--Article #7-->
+            <article class="card">
+               
+               <div> <!--I think this div is to wrap the details in the sepecific article, so we can make it a grid-->
+                <div class="category category-ent">Entertainment</div>
+                <h3><a href="news_article.html">Lorem ipsum dolor sit amet.</a></h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing 
+                elit. Amet nam dicta recusandae facilis perspiciatis vero 
+                in illo? Qui, modi! Magni quibusdam dolorem ipsam inventore modi 
+                aut maiores commodi beatae voluptates!</p>
+            </div>
+            <img src="./image_resources/articles/ent2.jpg" alt="cool">
+            </article>
+        </div>
+    </div>
+    </section>
+
+    <!--Footer-->
+    <footer id="main-footer" class="pad-2">
+        <div class="container footer-container">
+            <div>
+                <img src="./image_resources/logo_light.png" alt="NewsGrid">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi neque deserunt beatae quae 
+                earum et nihil praesentium facilis odit nisi, inventore accusantium adipisci modi exercitationem.</p>
+            </div>
+            <div>
+                <h3>Email Newsletter</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <form>
+                    <input type="email" placeholder="Enter your email here.." id="newsletterEmail">
+                    <input type="submit" value="Subscribe" class="btn btn-primary">
+                </form>
+            </div>
+            <!--Site Links-->
+            <div>
+                <h3>Site Links</h3>
+                <ul class="list">
+                 <li><a href="#">Help & Support</a></li>
+                 <li><a href="#">Privacy Policy</a></li>
+                 <li><a href="#">About Us</a></li>
+                 <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+
+            <!--Join Us-->
+            <div>
+                <h2>Join Our Club</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, impedit.</p>
+                <a href="news_join.html" class="btn btn-secondary">Join Now</a>
+            </div>
+            <!--Copyright footer-->
+            <div>
+                <p> Copyright &copy; 2022, All rights resrved</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
